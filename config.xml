@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.cgtekinc.evothingsviewer"
-	version="1.4.0"
-	android-versionCode="6"
-	ios-CFBundleVersion="1.4.0"
+<widget id="com.cgtekinc.cgtekviewer"
+	version="1.0.0"
+	android-versionCode="1"
+	ios-CFBundleVersion="1.0.0"
 	xmlns="http://www.w3.org/ns/widgets"
 	xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
