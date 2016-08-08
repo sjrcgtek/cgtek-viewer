@@ -1,5 +1,7 @@
 // Application code for the Evothings Viewer app.
 
+var TESTFAIRY_APP_TOKEN = "5c3e69e0ab3cd4b33df66643e3ef6b706ffc3dc8"
+
 // Application object.
 var app = {}
 
@@ -538,4 +540,11 @@ app.getDeviceInfo = function()
 }
 
 // App main entry point.
+document.addEventListener("deviceready", deviceReady, false);
+
+function deviceReady() {
+    console.log("Device Ready");
+    TestFairy.begin(TESTFAIRY_APP_TOKEN);
+}
+
 app.initialize()
